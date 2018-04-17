@@ -16,8 +16,9 @@ Ya sea en un IDE (como netbeans, Oracle, etc) o sólo el compilador por consola,
 conexion serial y para obtener la hora del sistema del equipo de computo
 
 ## Imagen del prototipo
-![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/img1.jpg "Prototipo")
-![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/img2.jpg "Prototipo")
+![Una imagen cualquiera](Evidencia1 "Prototipo")
+![Una imagen cualquiera](Evidencia2 "Prototipo")
+![Una imagen cualquiera](Evidencia3 "Prototipo")
 
 ## Imagen del esquema de conexion
 ![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/LCD.png "Prototipo")
