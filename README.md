@@ -16,31 +16,15 @@ Ya sea en un IDE (como netbeans, Oracle, etc) o sólo el compilador por consola,
 conexion serial y para obtener la hora del sistema del equipo de computo
 
 ## Imagen del prototipo
-![Una imagen cualquiera](Evidencia1.jpg "Prototipo")
-![Una imagen cualquiera](Evidencia2.jpg "Prototipo")
-![Una imagen cualquiera](Evidencia3.jpg "Prototipo")
+![Una imagen cualquiera](Evidencia1.jpg "Evidencia")
+![Una imagen cualquiera](Evidencia2.jpg "Evidencia")
+![Una imagen cualquiera](Evidencia3.jpg "Evidencia")
+![Una imagen cualquiera](java.jpg "Evidencia")
 
 ## Imagen del esquema de conexion
-![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/LCD.png "Prototipo")
+![Una imagen cualquiera](LCD.jpg "Esquema")
 
 ## Funcionalidad
-El LCD mostrara en todo momento una cierta hora predeterminada como 00:00:00 en un formato de 24hrs
-En la parte superior del LCD se mostraran mensajes cambiantes, siendo uno la lectura del sensor de temperatura y el otro 1 de 3 mensajes
-varios que, mediante la interfaz se podrán personalizar (como se muestra en las imagenes anteriores).
-
-## Interfaz de JAVA
-![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/interfaz1.png "interfaz")
-La interfaz es como se muetra a anteriormente. Funciona a manera que el panel derecho muestra la lista de saludos en orden,
-si se quiere se puede dar click en un saludo, al hacer esto se seleccionará de la siguiente manera
-
-![Una imagen cualquiera](https://github.com/FranciscoMan/DisplaySerial/blob/master/interfaz2.png "interfaz")
-
-y al escribir sobre la texbox se podra actualizar ese mensaje para que sea diferente.
-
-* **Actualizar** mensaje
-este boton hace lo anterior descrito
-* **Actualizar**
-este boton actualiza todos los mensajes al arduino, aunque se modifiquen en la lista no será
-sino hasta que se use este boton que se reflejaran en el arduino
-* **Mostrar**
-si seleccionamos un mensaje y damos click en este boton se mostrará en el arduino el mensaje que hayamos seleccionado
+EL LCD estara intercalando los mensajes en todo momento, se necesita que correr el proyecto de java para que tenga una hora
+el LCD si no moostrara un 00:00:00 cuando se carge la imagen al arduino, una vez que se ejecute el proyecto de java se sincronizara la hora del equipo con el arduino, despues de un tiempo sera intercalando la hora, la temperatura y el mensaje seleccionado desde la interfaz de java, los mensajes se podan personalizar desde la interfaz de java.
+![Una imagen cualquiera](java.jpg "Evidencia")
