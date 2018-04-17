@@ -31,3 +31,5 @@ el LCD si no moostrara un 00:00:00 cuando se carge la imagen al arduino, una vez
 
 ## IMPORTANTE!!!!
 El  codigo java y arduinno no lo anexare en el readme por la cantidad tan grande de lineas que contiene solo el programade arduino(450 lineas aprox) sin contar el de java, anexare los codigos fuentes.
+
+![Una imagen cualquiera](entorno.jpg "entorno")
